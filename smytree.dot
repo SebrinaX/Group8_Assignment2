@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Maximum temperature (°C) <= 17.35\nentropy = 0.607\nsamples = 194\nvalue = [170, 21, 3]", fillcolor="#e99254"] ;
+1 [label="Speed of maximum wind gust (km/h) <= 27.0\nentropy = 1.0\nsamples = 84\nvalue = [61, 20, 3]", fillcolor="#eeae80"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="TOTALDEMAND <= 5433.644\nentropy = 1.406\nsamples = 20\nvalue = [6, 11, 3]", fillcolor="#b8f6d2"] ;
+1 -> 2 ;
+3 [label="entropy = 0.994\nsamples = 11\nvalue = [6, 5, 0]", fillcolor="#fbeade"] ;
+2 -> 3 ;
+4 [label="entropy = 0.918\nsamples = 9\nvalue = [0, 6, 3]", fillcolor="#9cf2c0"] ;
+2 -> 4 ;
+5 [label="TOTALDEMAND <= 5715.847\nentropy = 0.586\nsamples = 64\nvalue = [55, 9, 0]", fillcolor="#e99659"] ;
+1 -> 5 ;
+6 [label="entropy = 0.362\nsamples = 58\nvalue = [54, 4, 0]", fillcolor="#e78a48"] ;
+5 -> 6 ;
+7 [label="entropy = 0.65\nsamples = 6\nvalue = [1, 5, 0]", fillcolor="#61ea9a"] ;
+5 -> 7 ;
+8 [label="Speed of maximum wind gust (km/h) <= 18.5\nentropy = 0.075\nsamples = 110\nvalue = [109, 1, 0]", fillcolor="#e5823b"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Minimum temperature (°C) <= 9.35\nentropy = 0.65\nsamples = 6\nvalue = [5, 1, 0]", fillcolor="#ea9a61"] ;
+8 -> 9 ;
+10 [label="entropy = 1.0\nsamples = 2\nvalue = [1, 1, 0]", fillcolor="#ffffff"] ;
+9 -> 10 ;
+11 [label="entropy = 0.0\nsamples = 4\nvalue = [4, 0, 0]", fillcolor="#e58139"] ;
+9 -> 11 ;
+12 [label="entropy = 0.0\nsamples = 104\nvalue = [104, 0, 0]", fillcolor="#e58139"] ;
+8 -> 12 ;
+}
