@@ -1,33 +1,6 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
-<<<<<<< HEAD
-0 [label="TOTALDEMAND <= 5995.095\nentropy = 0.703\nsamples = 194\nvalue = [33, 160, 1]", fillcolor="#63ea9c"] ;
-1 [label="TOTALDEMAND <= 5226.83\nentropy = 0.975\nsamples = 81\nvalue = [33, 48, 0]", fillcolor="#c1f7d8"] ;
-0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="TOTALDEMAND <= 4826.29\nentropy = 0.918\nsamples = 33\nvalue = [22, 11, 0]", fillcolor="#f2c09c"] ;
-1 -> 2 ;
-3 [label="entropy = 0.65\nsamples = 12\nvalue = [10, 2, 0]", fillcolor="#ea9a61"] ;
-2 -> 3 ;
-4 [label="entropy = 0.985\nsamples = 21\nvalue = [12, 9, 0]", fillcolor="#f8e0ce"] ;
-2 -> 4 ;
-5 [label="TOTALDEMAND <= 5981.165\nentropy = 0.777\nsamples = 48\nvalue = [11, 37, 0]", fillcolor="#74eda6"] ;
-1 -> 5 ;
-6 [label="entropy = 0.713\nsamples = 46\nvalue = [9, 37, 0]", fillcolor="#69eba0"] ;
-5 -> 6 ;
-7 [label="entropy = 0.0\nsamples = 2\nvalue = [2, 0, 0]", fillcolor="#e58139"] ;
-5 -> 7 ;
-8 [label="TOTALDEMAND <= 7463.74\nentropy = 0.073\nsamples = 113\nvalue = [0, 112, 1]", fillcolor="#3be582"] ;
-0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-9 [label="entropy = 0.0\nsamples = 106\nvalue = [0, 106, 0]", fillcolor="#39e581"] ;
-8 -> 9 ;
-10 [label="TOTALDEMAND <= 7536.365\nentropy = 0.592\nsamples = 7\nvalue = [0, 6, 1]", fillcolor="#5ae996"] ;
-8 -> 10 ;
-11 [label="entropy = 0.0\nsamples = 1\nvalue = [0, 0, 1]", fillcolor="#8139e5"] ;
-10 -> 11 ;
-12 [label="entropy = 0.0\nsamples = 6\nvalue = [0, 6, 0]", fillcolor="#39e581"] ;
-10 -> 12 ;
-=======
 0 [label="9am Temperature (°C) <= 15.15\nentropy = 0.736\nsamples = 170\nvalue = [31, 138, 1]", fillcolor="#67eb9e"] ;
 1 [label="9am Temperature (°C) <= 4.8\nentropy = 0.308\nsamples = 106\nvalue = [4, 101, 1]", fillcolor="#43e687"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
@@ -57,5 +30,4 @@ edge [fontname=helvetica] ;
 12 -> 13 ;
 14 [label="entropy = 0.937\nsamples = 34\nvalue = [12, 22, 0]", fillcolor="#a5f3c6"] ;
 12 -> 14 ;
->>>>>>> 7926d47dd6c879cd9276608dc46572db0c18c63f
 }
